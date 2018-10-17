@@ -7,5 +7,7 @@ public class Stepdefs {
     public void I_have_cukes_in_my_belly(int cukes) throws Throwable {
         Belly belly = new Belly();
         belly.eat(cukes);
+        
+        
     }
 }
